@@ -1,5 +1,6 @@
 #include <iostream>
-#include <algorithm>  // For sort()
+#include <algorithm> 
+// For sort()
 using namespace std;
 int binarySearch(int arr[], int size, int target) {
     int left = 0, right = size - 1;
